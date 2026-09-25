@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-13T23:00:28 IST" name="Suite" finished-at="2025-12-13T23:00:28 IST" duration-ms="56">
+    <groups>
+      <group name="smoke">
+        <method signature="WebUiTests.webLogin()[pri:0, instance:Tests.WebUiTests@48974e45]" name="webLogin" class="Tests.WebUiTests"/>
+        <method signature="APITests.DataTest()[pri:0, instance:Tests.APITests@485966cc]" name="DataTest" class="Tests.APITests"/>
+        <method signature="MobileTests.apkinstallation()[pri:0, instance:Tests.MobileTests@1de76cc7]" name="apkinstallation" class="Tests.MobileTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-12-13T23:00:28 IST" name="tests" finished-at="2025-12-13T23:00:28 IST" duration-ms="43">
+      <class name="Tests.WebUiTests">
+        <test-method signature="WebAutomate()[pri:0, instance:Tests.WebUiTests@48974e45]" started-at="2025-12-13T23:00:28 IST" name="WebAutomate" finished-at="2025-12-13T23:00:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebAutomate -->
+        <test-method signature="webLogin()[pri:0, instance:Tests.WebUiTests@48974e45]" started-at="2025-12-13T23:00:28 IST" name="webLogin" finished-at="2025-12-13T23:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- Tests.WebUiTests -->
+    </test> <!-- tests -->
+    <test started-at="2025-12-13T23:00:28 IST" name="APITests" finished-at="2025-12-13T23:00:28 IST" duration-ms="56">
+      <class name="Tests.MobileTests">
+        <test-method signature="addMobileTests(java.lang.String,java.lang.String)[pri:0, instance:Tests.MobileTests@1de76cc7]" started-at="2025-12-13T23:00:28 IST" name="addMobileTests" data-provider="testUserData" finished-at="2025-12-13T23:00:28 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lover]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileTests -->
+        <test-method signature="apkinstallation()[pri:0, instance:Tests.MobileTests@1de76cc7]" started-at="2025-12-13T23:00:28 IST" name="apkinstallation" finished-at="2025-12-13T23:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apkinstallation -->
+      </class> <!-- Tests.MobileTests -->
+      <class name="Tests.APITests">
+        <test-method signature="Userdata()[pri:0, instance:Tests.APITests@485966cc]" started-at="2025-12-13T23:00:28 IST" name="Userdata" finished-at="2025-12-13T23:00:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Userdata -->
+        <test-method signature="DataTest()[pri:0, instance:Tests.APITests@485966cc]" started-at="2025-12-13T23:00:28 IST" name="DataTest" finished-at="2025-12-13T23:00:28 IST" depends-on-methods="Tests.APITests.Userdata" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTest -->
+      </class> <!-- Tests.APITests -->
+    </test> <!-- APITests -->
+  </suite> <!-- Suite -->
+</testng-results>
