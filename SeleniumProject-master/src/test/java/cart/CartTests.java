@@ -9,7 +9,7 @@ public class CartTests extends BaseTest {
     public void testProductInCart(){
        login();
         var cartPage=homePage.gotoCart();
-        Assert.assertEquals(cartPage.getProductText(),"Tempo Zamalek Home Match Jersey 22/23 - Fan Edition");
+        Assert.assertEquals(cartPage.getProductText(),"Tjmpo Zamalek Home Match Jersey 22/23 - Fan Edition");
     }
     @Test(priority = 2)
     public void testDeletingProductFromCart(){
