@@ -12,5 +12,12 @@ public class SearchTests extends BaseTest {
         var searchResultsPage=homePage.search(searchWord);
         Assert.assertTrue(searchResultsPage.assertSearchResults(searchWord));
     }
+    @Test(priority = 1,description = "just used for git")
+    public void testitestngRelevantSearchResults(String searchWord)  {
+        homePage.closePopUp();
+        var searchResultsPage=homePage.search(searchWord);
+        Assert.assertTrue(searchResultsPage.assertSearchResults(searchWord));
+    }
+
 
 }
